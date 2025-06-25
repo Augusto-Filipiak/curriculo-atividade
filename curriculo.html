@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Curriculo</title>
+    </head>
+    <body>
+        <h1>Curriculo Pessoal</h1>
+        <div>
+        <fieldset>
+            <table border="1" width="100%">
+            <legend>Informações pessoais</legend>
+            <tr>
+                <th rowspan="3" > <img width="40" src="augusto.jpeg"></th>
+                <th>nome</th>
+                <th>Profissão</th>
+                <th>idade</th>
+            </tr>
+            <tr>
+                <td><input width="100%" type="text" placeholder="Digite seu nome" required> </td>
+                <td><input width="100%" type="text" placeholder="Digite sua profissão" required></td>
+                <td><input placeholder="Digite sua idade" type="text" required></th>
+            </tr>
+            </table>
+            <br>
+            <label for="dataNascimento">Data de nascimento:</label>
+            <input type="datetime-local">
+            <br>
+            <br>
+            
+            <label for="sexo">Sexo:</label>
+            <br>
+            <input type="radio" id="masculino" name="genero" value="Masculino">
+            <label for="masculino"> Masculino</label>
+            <input type="radio" id="Feminino" name="genero" value="Feminino"> 
+            <label for="Feminino">Feminino</label>
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Informações de contato</legend>
+
+            <label for="email">E-mail:</label>
+            <input type="email" placeholder="Digite seu E-mail">
+            <br> <br>
+            <label for="num">Telefone: </label>
+            <input type="text" placeholder="Digite seu numero">
+            <br> <br>
+            <label for="senha">Senha:</label>
+            <input type="text" placeholder="Digite sua senha">
+            <br><br>
+            <label for="curriculo">Curriculo:</label>
+            <input type="file">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend></legend>
+            <label for="linguagens">Linguagens de programação</label>
+            <br>
+            <input type="checkbox">
+            <label for="linguagens"> HTML</label>
+            <input type="checkbox">
+            <label for="linguagens"> JAVA</label>
+            <input type="checkbox">
+            <label for="linguagens"> Python</label>
+            <input type="checkbox">
+            <label for="linguagens"> C#</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Resumo profissional</legend>
+            <label for="titulo"> Sou um jovem estudante em busca de experiencia na area de programação, onde quero aperfeiçoar minhas habilidades e integrar a uma empresa. <br>
+            Estou atualmente cursando o curos aprender e crescer onde estou aprendendo sobre programação. <br>
+            Não tenho experiencia profissional e por enquanto nenhuma formação.
+            Tenho algumas habilidades na linguagem JAVA e estou cursando um curso online na ROCKETSEAT.
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Metas</legend>
+            <li>conseguir meu primeiro emprego</li>
+            <li>melhorar minhas habilidades em JAVA</li>
+            <li>namorar</li>
+        </fieldset>
+        </div>
+    </body>
+</html>
